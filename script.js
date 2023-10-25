@@ -108,7 +108,7 @@ search.addEventListener('click', () => {
             const cloneInfoHumidityFirst = cloneInfoHumidity[0];
 
             const cloneInfoWind = document.querySelectorAll('.info-wind.active-clone');
-            const cloneInfoWindFirst = loneInfoWind[0];
+            const cloneInfoWindFirst = cloneInfoWind[0];
 
             if (totalCloneInfoWeather > 0) {
                 cloneInfoWeatherFirst.classList.remove('active-clone');
